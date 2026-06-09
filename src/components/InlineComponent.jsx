@@ -1,7 +1,8 @@
+const headerStyle = { color: "blue", fontSize: "120px" };
 export default function InlineComponent() {
   return (
     <div>
-      <h1 style={{ color: "blue", fontSize: "140px" }}>Inline Component</h1>
+      <h1 style={headerStyle}>Inline Component</h1>
     </div>
   );
 }
