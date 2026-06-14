@@ -11,3 +11,11 @@
 .line {
   border: 0.5px solid yellow;
 }
+.deleteButton {
+  background-color: yellow;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  float: right;
+}
